@@ -12,5 +12,5 @@ nalgebra = { workspace = true }
 cellular_raza = { path="../../cellular_raza", features=["tracing"] }
 num = { workspace = true }
 itertools.workspace = true
-rand_distr = "0.4.3"
+rand_distr = "0.5.0"
 

@@ -36,7 +36,7 @@ plotters = { version="0.3", default-features = false, features=[
 ]}
 # We cannot upgrade these versions at the moment since nalgebra 0.33 still requires rand_distr 0.4
 rand = { version="0.8", features = ["small_rng"] }
-rand_distr = "0.4"
+rand_distr = "0.5"
 rand_chacha = { version="0.3.1", features=["serde1"] }
 serde = "1.0"
 tempfile = "3"
